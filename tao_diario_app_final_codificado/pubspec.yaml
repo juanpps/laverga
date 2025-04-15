@@ -1,0 +1,22 @@
+name: tao_diario_app
+description: Una app de rutina taoísta y estudio ICFES.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+dependencies:
+  shared_preferences: ^2.0.15
